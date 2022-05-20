@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>CTECH</title>
+</head>
+
+<body>
+  <!-- start header -->
+  <header class="header">
+    <section class="top-nav-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-lg-5">
+            <h1 class="logo text-sm-center text-md-left">
+              <a href="home.html" class="logo">
+                C-TECH
+              </a>
+            </h1>
+          </div>
+          <div class="col-md-8 col-lg-7">
+            <!-- display none on small; display on medium -->
+            <nav class="nav navbar top-nav justify-content">
+              <li class="top-nav-item nav-item"><a href="gaming-pcs.html" class="nav-link top-nav-link">Gaming
+                  PCs</a></li>
+              <li class="top-nav-item nav-item"><a href="about.html" class="nav-link top-nav-link">About</a></li>
+              <li class="top-nav-item nav-item"> <a href="checkout.html" class="nav-link cart-link"> <img
+                    src="media/cart.png" class="img-fluid cart"> (0)</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- close header -->
+
+  <main class="main">
+    <div class="container checkout-section">
+      <div class="title">
+        <h2>Product Order Form</h2>
+      </div>
+      <div class="d-flex">
+        <form action="" method="" class="form">
+          <label class="label">
+            <span class="fname">First Name <span class="required">*</span></span>
+            <input type="text" name="fname">
+          </label>
+          <label class="label">
+            <span class="lname">Last Name <span class="required">*</span></span>
+            <input type="text" name="lname">
+
+            <span>Country <span class="required">*</span></span>
+            <select name="selection">
+              <option value="select">Select a country...</option>
+              <option value="AFG">Afghanistan</option>
+              <option value="ALA">Åland Islands</option>
+              <option value="ALB">Albania</option>
+              <option value="DZA">Algeria</option>
+              <option value="ASM">American Samoa</option>
+              <option value="AND">Andorra</option>
+              <option value="AGO">Angola</option>
+            </select>
+          </label>
+          <label class="label">
+            <span>Street Address <span class="required">*</span></span>
+            <input type="text" name="houseadd" placeholder="House number and street name" required>
+          </label>
+          <label class="label">
+            <span>Town / City <span class="required">*</span></span>
+            <input type="text" name="city">
+          </label>
+          <label class="label">
+            <span>State / County <span class="required">*</span></span>
+            <input type="text" name="city">
+          </label>
+          <label class="label">
+            <span>Postcode / ZIP <span class="required">*</span></span>
+            <input type="text" name="city">
+          </label>
+          <label class="label">
+            <span>Phone <span class="required">*</span></span>
+            <input type="tel" name="city">
+          </label>
+          <label class="label">
+            <span>Email Address <span class="required">*</span></span>
+            <input type="email" name="city">
+          </label>
+        </form>
+        <div class="col-4 order">
+          <div class="container">
+            <h4>Cart
+              <span class="price">
+              </span>
+            </h4>
+            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <p>Total <span class="price"><b>$100</b></span></p>
+          </div>
+          <button type="button" class="button">Place Order</button>
+        </div>
+      </div>
+
+  </main> 
+  <!-- close main -->
+
+  <!-- start footer -->
+  <footer class="footer" id="footer">
+
+    <section class="info-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-info">
+              <h2 class="footer-about-header">About us</h2>
+              <p>We are focused on making sure you get what your paying for</p>
+              <a href="about.html" class="read-more">&#187; Read more</a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer-info">
+              <h2 class="footer-contact-header">Contact</h2>
+              <li class="contact-list-item">Phone: <a href="#link">888-CTETCH</a></li>
+              <input type="text" placeholder="email" name="mail" required>
+              <button class="submit button">submit</button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-info">
+              <h1 class="footer-logo text-sm-center text-md-left">CTECH</h1>
+              <p class="colophon-text text-sm-center text-md-left">site by colin &copy;2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </footer>
+</body>
+
+</html>

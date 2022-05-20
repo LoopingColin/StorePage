@@ -1,0 +1,278 @@
+
+/* generic rules */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+  --logoFont:'Inconsolata', monospace;
+  --primaryColor: #001845;
+  --secondaryColor: #f6f6f6; 
+  
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+
+/* end generic rules */
+
+
+
+/* start header */
+
+.header{
+  background-color: var(--primaryColor);
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+
+.top-nav {
+  /* border: 1px solid blue; */
+  justify-content: end;  
+}
+
+
+.logo{
+  margin-top: 8px;
+  font-family: var(--logoFont);
+  text-decoration: none ;
+  color: var(--secondaryColor)
+}
+
+
+.logo:hover{
+  color: var(--secondaryColor);
+}
+
+.top-nav-link {
+  /* border: 1px solid red; */
+  font-family: var(--logoFont);
+  text-transform: uppercase;
+  color: var(--secondaryColor);
+}
+
+.top-nav-link:hover {
+  color: #0466C8;
+}
+
+.reviews-section {
+  padding-top: 20px;
+}
+
+
+.standards-section {
+  padding-top: 30px;
+}
+
+
+.passion-section {
+  padding-top: 20px;
+}
+
+/* end header */
+
+
+
+/* main  for home page */
+
+
+.main-text {
+  /* border: 1px solid red; */
+  font-family: var(--logoFont);
+  color: var(--primaryColor);
+}
+
+.p-text {
+  /* border: 1px solid blue; */
+  font-family: var(--logoFont);
+  color: var(--primaryColor);
+}
+/* end main */
+
+/* main for about page */
+
+.about-header {
+  font-family: var(--logoFont);
+  text-align: center;
+}
+
+.about-text {
+  border: 10px solid var(--primaryColor);
+  font-family: var(--logoFont);
+  /* margin-top: 209px; */
+  
+  /* width: 900px; */
+  border-radius: 40px;
+
+}
+
+/* end about main */
+
+
+/* main for gaming-pcs */
+.about-main {
+  padding-top: 160px;
+  border: 1px solid transparent;
+}
+
+.pc-header {
+  color: var(--primaryColor);
+}
+
+.pc-title {
+  margin-left: 30px;
+  /* border: 1px solid red; */
+  color: var(--secondaryColor);
+  font-family: var(--logoFont);
+  /* border: 1px solid blue; */
+}
+
+.pc-text {
+  color: var(--secondaryColor);
+  font-family: var(--logoFont);
+}
+
+.price-text {
+  color: red;
+  font-family: var(--logoFont);
+}
+
+
+/* adds background to custom pc section */
+.pc-info {
+    /* border: 1px solid red; */
+    /* background-color: white; */
+    /* border-right: 2px solid red; */
+    border-radius: 9px;
+    /* margin-right: 200px; */
+    background-color: var(--primaryColor);
+    /* margin-top: 20px; */
+    border-right: 5px solid white;
+    margin-bottom: 20px;
+}
+
+/* start single-page */
+.single-card {
+  border-radius: 9px;
+  background-color: var(--primaryColor);
+  border-right: 5px solid white;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  width: 400px; 
+  display:  block;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.single-main {
+  border: 1px solid red ;
+  /* margin-top: 200px; */
+  padding-bottom: 50px;
+  padding-top: 145px;
+}
+
+/* end single-pc page */
+
+/* end gaming pc main */
+
+
+/* start checkout page */
+
+
+.form-data {
+  /* background-color: blue; */
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+
+.form-input {
+  border: 1px solid #c5c5c5;
+  display: block;  
+  /* width: 200px; */
+  /* height: 2rem; */
+  /* padding: 0.5rem; */
+  font-family: var(--logoFont);
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+
+}
+
+
+.submit-btn {
+  font-family: var(--logoFont);
+  border: none;
+  padding: 1rem;
+  /* width: 21.2rem; */
+  font-size: 1.2em;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+
+.submit-btn:hover {
+  background-color: #c5c5c5;
+}
+
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: #36a936;
+}
+
+.button{
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: var(--secondaryColor);
+  color: var(--primaryColor);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: var(--logoFont);
+}
+
+
+.button:hover{
+  cursor: pointer;
+  background: var(--secondaryColor)
+}
+
+/* end checkout page */
+
+/* start footer*/
+
+.footer {
+    /* border: 1px solid red; */
+    background-color: var(--primaryColor);
+    box-shadow: 2px 2px 2px;
+    /* margin-top: 167px; */
+}
+
+
+.footer-info {
+  /* border: 1px solid red; */
+  font-family: var(--logoFont);
+  color: var(--secondaryColor)
+}
+
+
+/* end footer */
+
+
+
+.colin-img {
+  /* border: 1px solid red; */
+  display: block;
+  text-align: center;
+  margin: auto;
+}
