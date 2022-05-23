@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "vercel": "vercel --prod"
+  },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "vercel": "^24.2.4"
   }
 }
